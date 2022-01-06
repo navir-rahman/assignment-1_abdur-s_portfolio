@@ -4,8 +4,6 @@
 body{
     color: #333333;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/images/shapes/shape-9.png);
-    background-repeat: no-repeat;
 }
 a{
     text-decoration: none;
@@ -31,7 +29,6 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .vertical{
     display: flex;
     justify-content: center;
@@ -102,9 +99,6 @@ width: 50%;
 .bg_color_yeallowis{
     background-color:#FFF4D6;
 }
-#section_three{
-}
-
 #formsection{
 background-image: url(/images/shapes/shape-6.png);
 background-repeat: no-repeat;
