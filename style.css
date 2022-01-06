@@ -1,4 +1,5 @@
-*{    margin: 0;
+*{   
+    margin: 0;
     padding: 0;
 }
 body{
@@ -24,6 +25,21 @@ p{
     font-size: 18px;
     margin: 20px 0;
 }
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #72A7E4;
+    }
+textarea{
+     margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #72A7E4;
+}
+form{
+    height: 400px;
+}
 .vertical{
     display: flex;
     justify-content: center;
@@ -34,7 +50,7 @@ p{
     justify-content: space-between;
 }
 .width50{
-width: 50%;
+    width: 50%;
 }
 .font_lobstar{
     font-family: 'Lobster', cursive;
@@ -96,12 +112,10 @@ width: 50%;
     background-color:#FFF4D6;
 }
 #formsection{
-background-image: url(./images/shapes/shape-6.png);
-background-repeat: no-repeat;
+    background-image: url(./images/shapes/shape-6.png);
+    background-repeat: no-repeat;
 }
-form{
-height: 400px;
-}
+
 #subsbox_border {
     border-left: 7px solid;
     border-image: linear-gradient( blue, cyan);
@@ -132,20 +146,9 @@ align-self: end;
 .Subscrib{
 max-width: 500px;
 }
-input{
-margin: 10px 0;
-padding: 10px;
-border-radius: 5px;
-border: 2px solid #72A7E4;
-}
-textarea{
- margin: 10px 0;
-padding: 10px;
-border-radius: 5px;
-border: 2px solid #72A7E4;
-}
+
 .foot_txtColor{
-    color: #77A6F4;;
+    color: #77A6F4;
 }
 footer{
     background-color: #333333;
