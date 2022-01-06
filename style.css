@@ -1,6 +1,7 @@
-body{
-    margin: 0;
+*{    margin: 0;
     padding: 0;
+}
+body{
     color: #333333;
     font-family: 'Poppins', sans-serif;
 }
@@ -21,6 +22,7 @@ h2{
 }
 p{
     font-size: 18px;
+    margin: 20px 0;
 }
 .vertical{
     display: flex;
@@ -50,16 +52,19 @@ width: 50%;
     
 }
 .text_sceond_color{
-    color: #FFAD5A;
+    color: #00877A;
 }
 .margin_bottom_20px{
     margin-bottom: 20px;
 }
 .button_style{
     padding: 10px 15px;
-    background-color: #FF5959;
+    background-color: #77A6F4;
     color: #fff;
     border-radius: 5px;
+}
+#sec_1_title{
+    border-left: 5px solid #77A6F4;
 }
 .center_header{
     text-align: center;
@@ -89,9 +94,10 @@ width: 50%;
 .bg_color_yeallowis{
     background-color:#FFF4D6;
 }
-
+#section_three{
+}
 .foot_txtColor{
-    color: #FF5959;;
+    color: #77A6F4;;
 }
 footer{
     background-color: #333333;
