@@ -4,6 +4,8 @@
 body{
     color: #333333;
     font-family: 'Poppins', sans-serif;
+    background-image: url(/images/shapes/shape-9.png);
+    background-repeat: no-repeat;
 }
 a{
     text-decoration: none;
@@ -18,16 +20,22 @@ h1{
     font-size: 60px;
 }
 h2{
-    font-size: 48px;
+    font-size: 40px;
 }
 p{
     font-size: 18px;
     margin: 20px 0;
 }
+#section_one{
+    background-image: url(/images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .vertical{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: auto;
 }
 .jsty_between{
@@ -52,19 +60,19 @@ width: 50%;
     
 }
 .text_sceond_color{
-    color: #00877A;
+    color: #77A6F4;
 }
 .margin_bottom_20px{
     margin-bottom: 20px;
 }
 .button_style{
-    padding: 10px 15px;
-    background-color: #77A6F4;
+    padding: 10px 30px;
+    background-color: #00877A;
     color: #fff;
     border-radius: 5px;
 }
 #sec_1_title{
-    border-left: 5px solid #77A6F4;
+    border-left: 5px solid #00877A;
 }
 .center_header{
     text-align: center;
@@ -95,6 +103,63 @@ width: 50%;
     background-color:#FFF4D6;
 }
 #section_three{
+}
+
+#formsection{
+background-image: url(/images/shapes/shape-6.png);
+background-repeat: no-repeat;
+}
+form{
+height: 400px;
+}
+#subsbox_border {
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#contact_border {
+    border-left: 7px solid;
+    border-image: linear-gradient(  cyan , blue);
+    border-image-slice: 1;
+}
+form div {
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+    max-width: 500px;
+    padding: 50px;
+}
+.formContainer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+max-width: 500px;
+margin: auto;
+}
+.formContainer a{
+width: fit-content;
+align-self: end;
+}
+.Subscrib{
+max-width: 500px;
+}
+input{
+
+margin: 10px 0;
+
+padding: 10px;
+
+border-radius: 5px;
+
+border: 2px solid #72A7E4;
+}
+textarea{
+ margin: 10px 0;
+
+padding: 10px;
+
+border-radius: 5px;
+
+border: 2px solid #72A7E4;
 }
 .foot_txtColor{
     color: #77A6F4;;
