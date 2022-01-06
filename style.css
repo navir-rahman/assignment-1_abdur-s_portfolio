@@ -24,11 +24,6 @@ p{
     font-size: 18px;
     margin: 20px 0;
 }
-#section_one{
-    background-image: url(./images/shapes/top-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .vertical{
     display: flex;
     justify-content: center;
@@ -41,17 +36,10 @@ p{
 .width50{
 width: 50%;
 }
-.width28{
- width: 28%;
- 
-}
 .font_lobstar{
     font-family: 'Lobster', cursive;
 }
-.width35{
-    width: 35%;
-    
-   }
+
 .width65{
     width: 65%;
     
@@ -61,6 +49,11 @@ width: 50%;
 }
 .margin_bottom_20px{
     margin-bottom: 20px;
+}
+#section_one{
+    background-image: url(./images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .button_style{
     padding: 10px 30px;
@@ -79,16 +72,19 @@ width: 50%;
 .text_area{
     padding-right: 40px;
 }
+.Profile_image{
+    width: 35%;
+}
 .Profile_image img {
     max-width: 400px;
 }
-
 .mission_icon{
     max-width: 150px;
 }
 .mission_box{
     border-radius: 10px;
     padding: 20px;
+    width: 28%;
 }
 .bg_color_bluish{
     background-color: #EDF5F6;
@@ -137,22 +133,15 @@ align-self: end;
 max-width: 500px;
 }
 input{
-
 margin: 10px 0;
-
 padding: 10px;
-
 border-radius: 5px;
-
 border: 2px solid #72A7E4;
 }
 textarea{
  margin: 10px 0;
-
 padding: 10px;
-
 border-radius: 5px;
-
 border: 2px solid #72A7E4;
 }
 .foot_txtColor{
